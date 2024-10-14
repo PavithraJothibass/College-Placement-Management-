@@ -1,0 +1,59 @@
+/* App.css */
+
+body {
+  margin: 0; /* Remove default margin */
+  font-family: 'Times New Roman', Times, serif; /* Set a default font */
+}
+
+.App {
+  background-image: url('FrontPage.png'); /* Path to your background image */
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the background image */
+  height: 100vh; /* Makes the background fill the viewport height */
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  color: rgb(2, 2, 2); /* Optional: Change text color for better visibility */
+}
+
+.home-page {
+  text-align: center;
+  padding: 100px;
+}
+
+.role-images-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.role-image {
+  text-align: center;
+}
+
+.role-image img {
+  width: 200px;  /* Adjust size as necessary */
+  height: auto;
+  border-radius: 20px;
+}
+
+
+nav ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+}
+
+nav ul li {
+  display: inline; /* Make list items inline */
+  margin-right: 15px; /* Add some space between links */
+}
+
+nav a {
+  color: rgb(255, 255, 255); /* Change link color to black */
+  text-decoration: none; /* Remove underline */
+  font-size:20px;
+}
+
+nav a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}

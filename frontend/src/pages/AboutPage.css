@@ -1,0 +1,115 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevent scrolling when menu is open */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px; /* Adjusted padding */
+    color: #fff;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.nav-bar {
+    flex-grow: 1;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px; /* Space between nav items */
+}
+
+.nav-list li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-list li a:hover {
+    text-decoration: underline;
+}
+
+.full-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(128, 128, 128, 0.1); /* Grey background with some transparency */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Make sure it overlays above other content */
+}
+
+.side-menu {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2); /* Light semi-transparent background */
+    width: 250px; /* Adjusted width for better visibility */
+    color: #fff;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.side-menu h3 {
+    margin-bottom: 10px;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    margin: 10px 0;
+}
+
+.side-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.about-content {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #fff;
+    width: 100%; /* Ensure full width */
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+.about-content h1 {
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 36px; /* Larger font for the main heading */
+}
+
+.about-content p {
+    margin: 10px 0; /* Space between paragraphs */
+    font-size: 18px; /* Font size for paragraph text */
+    line-height: 1.6; /* Improve readability */
+}
+
+.footer {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 1em; /* Smaller font size for footer */
+    color: #fff; /* White text color */
+    text-align: center; /* Center text */
+}
+
+.footer p {
+    margin: 5px 0; /* Space between footer items */
+}

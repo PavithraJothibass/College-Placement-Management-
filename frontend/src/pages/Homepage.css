@@ -1,0 +1,67 @@
+.homepage {
+    text-align: center;
+    color: #fff; /* White text color */
+    font-size: 18px;
+}
+
+.header {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+}
+
+.header h1 {
+    margin-bottom: 10px; /* Add margin to the bottom of the header */
+}
+
+.header h1:first-of-type {
+    background-color: grey; /* Grey background for the first h1 */
+    padding: 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.header h1:last-of-type {
+    background-color: grey; /* Grey background for the second h1 */
+    padding: 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.feature {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2); /* Light semi-transparent background */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Style for the links */
+.feature a {
+    color: white; /* Change link color to white */
+    text-decoration: none; /* Remove underline */
+}
+
+.feature a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.role-image {
+    width: 150px; /* Set a fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+.footer {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 1em; /* Smaller font size for footer */
+}
+
+.footer p {
+    margin: 5px 0; /* Space between footer items */
+}

@@ -1,0 +1,44 @@
+/* AdminDashboard.css */
+.admin-dashboard {
+    padding: 20px;
+}
+
+.admin-dashboard h1 {
+    font-size: 24px;
+}
+
+.admin-dashboard nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.admin-dashboard nav ul li {
+    margin: 10px 0;
+}
+
+.admin-dashboard nav ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.admin-dashboard p {
+    margin-top: 20px;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.error-message {
+    color: rgb(0, 0, 0);
+}
