@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/4d14135b-c915-4b20-8f91-ea44c962c2d5)# College Placement Management System
+![image](https://github.com/user-attachments/assets/cb554908-00f9-40c8-b81b-bdd95bf5783b)
+# College Placement Management System
 
 A full-stack web application designed to streamline the placement process for colleges, handling everything from student applications and interviews to company coordination and placement drives. Built using the MERN stack, the system integrates video interview functionality and supports tracking recruitment status, managing academic records, and maintaining a company database.
 
