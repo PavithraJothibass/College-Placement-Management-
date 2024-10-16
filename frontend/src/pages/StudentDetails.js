@@ -32,7 +32,7 @@ const StudentDetailsForm = () => {
         };
 
         try {
-            const response = await fetch('http://localhost:5000/api/studentdetails', {
+            const response = await fetch(https://college-placement-management-backend-2.onrender.com/api/studentdetails', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
