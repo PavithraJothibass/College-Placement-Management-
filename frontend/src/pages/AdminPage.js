@@ -13,7 +13,7 @@ const LoginPage = () => {
         const loginData = { username, password };
 
         try {
-            const response = await fetch('http://localhost:5000/api/admin/admin_login', {
+            const response = await fetch('https://college-placement-management-backend-2.onrender.com/api/admin/admin_login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
