@@ -26,7 +26,7 @@ const RegisterPage = () => {
         };
 
         try {
-            const response = await fetch('http://localhost:5000/api/recruiter/recruiter_register', {
+            const response = await fetch('https://college-placement-management-backend-2.onrender.com/api/recruiter/recruiter_register', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
